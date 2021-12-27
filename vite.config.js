@@ -17,7 +17,7 @@ export default defineConfig({
 		lib: {
 			entry: path.resolve(__dirname, 'lib/index.js'),
 			name: 'getUniqueMonster',
-			fileName: format => `very-unique-id.${format}.js`
+			fileName: format => `monster-mash.${format}.js`
 		}
 	}
 });

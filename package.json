@@ -1,23 +1,23 @@
 {
-	"name": "@das.laboratory/very-unique-id",
+	"name": "monster-mash",
 	"version": "1.0.0",
-	"description": "A generator of more memorable but unique IDs",
+	"description": "A generator of more memorable and pretty unique IDs (especially in the sense of \"that's an ID you don't see every day!\").",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/DasLaboratory/very-unique-id.git"
+		"url": "git+https://github.com/DasLaboratory/monster-mash.git"
 	},
 	"author": "Nicolas Reibnitz <n.reibnitz@gmail.com> (http://daslaboritory.com/)",
-	"homepage": "https://github.com/DasLaboratory/very-unique-id#readme",
+	"homepage": "https://github.com/DasLaboratory/monster-mash#readme",
 	"bugs": {
-		"url": "https://github.com/DasLaboratory/very-unique-id/issues"
+		"url": "https://github.com/DasLaboratory/monster-mash/issues"
 	},
-	"main": "./dist/very-unique-id.umd.js",
-	"module": "./dist/very-unique-id.es.js",
+	"main": "./dist/monster-mash.umd.js",
+	"module": "./dist/monster-mash.es.js",
 	"exports": {
 		".": {
-			"import": "./dist/very-unique-id.es.js",
-			"require": "./dist/very-unique-id.umd.js"
+			"import": "./dist/monster-mash.es.js",
+			"require": "./dist/monster-mash.umd.js"
 		}
 	},
 	"scripts": {

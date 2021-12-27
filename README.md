@@ -1,4 +1,4 @@
-# very-unique-id
+# Monster Mash - a very unique ID generator
 
 > A generator of more memorable and pretty unique IDs
 > (especially in the sense of "that's an ID you don't see every day!").
@@ -16,13 +16,13 @@ Check out the `./example` directory. I mean...
 Import it into your project...
 
 ```shell
-npm install @das.laboratory/very-unique-id
+npm install monster-mash
 ```
 
 or use a CDN...
 
 ```html
-<script src="https://unpkg.com/@das.laboratory/very-unique-id/dist/very-unique-id.umd.js"></script>
+<script src="https://unpkg.com/monster-mash/dist/monster-mash.umd.js"></script>
 ```
 
 ...for whatever reason.
@@ -32,7 +32,7 @@ or use a CDN...
 ### Browser
 
 ```html
-<script src="./path/to/very-unique-id.umd.js"></script>
+<script src="./path/to/monster-mash.umd.js"></script>
 <script>
 	const uniqueMonster = getUniqueMonster(); // lavender-banshee
 </script>
@@ -41,7 +41,7 @@ or use a CDN...
 ### Node.js
 
 ```js
-import getUniqueMonster from '@das.laboratory/very-unique-id';
+import getUniqueMonster from 'monster-mash';
 
 const uniqueMonster = getUniqueMonster(); // orchid-bogeyman
 ```
