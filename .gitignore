@@ -106,3 +106,4 @@ typings/
 .DS_Store
 example/vendor/
 example/**/*.scss
+package-lock.json
