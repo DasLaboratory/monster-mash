@@ -1,5 +1,5 @@
 {
-	"name": "very-unique-id",
+	"name": "@das.laboratory/very-unique-id",
 	"version": "1.0.0",
 	"description": "A generator of more memorable but unique IDs",
 	"license": "MIT",
