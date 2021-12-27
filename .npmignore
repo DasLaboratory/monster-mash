@@ -1,0 +1,12 @@
+src/
+node_modules
+build*/
+package-lock.json
+~$*.xls*
+~$*.doc*
+.DS_Store
+tmp*/
+tests/
+example/vendor/
+example/**/*.scss
+/*.tgz

@@ -1,0 +1,35 @@
+@import '../vendor/bootstrap-4.6.0/scss/bootstrap.scss';
+@import './theme/cover';
+
+html {
+	background-image: url(../media/images/dore-small.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+	min-height: 100vh;
+	background-color: rgba(255, 255, 255, 0.75);
+	color: #212529;
+}
+
+.cover {
+	margin-bottom: 10vh;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+	background-color: #d2d2d2;
+}
+
+.masthead-brand {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+pre {
+	display: block;
+	display: inline-block;
+	text-align: left;
+}

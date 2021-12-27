@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+		<title>very-unique-id</title>
+		<link rel="stylesheet" href="./css/style.scss" />
+	</head>
+	<body class="text-center">
+		<div class="container-fluid d-flex w-100 h-100 py-3 px-5 mx-auto flex-column">
+			<header class="masthead mb-auto">
+				<div class="inner">
+					<h4 class="masthead-brand">@das.laboratory/very-unique-id</h4>
+					<nav class="nav nav-masthead justify-content-center">
+						<a class="nav-link" href="https://daslaboratory.com">home</a>
+						<a class="nav-link" href="https://www.npmjs.com/package/@das.laboratory/very-unique-id">npm</a>
+						<a class="nav-link" href="https://github.com/DasLaboratory/very-unique-id">GitHub</a>
+					</nav>
+				</div>
+			</header>
+
+			<main role="main" class="inner cover">
+				<h1 class="cover-heading mb-5"></h1>
+				<p class="lead">Getting a unique and colorful monster has never been easier!</p>
+				<pre>
+import getUniqueMonster from '@das.laboratory/very-unique-id';
+const uniqueMonster = getUniqueMonster();</pre
+				>
+				<div id="my-monster" class="lead mt-3 mb-5">
+					<h1>&nbsp;</h1>
+				</div>
+				<p class="lead">
+					<button id="get-monster" class="btn btn-lg btn-secondary">Get New Monster!</button>
+				</p>
+			</main>
+
+			<footer class="mastfoot">
+				<div class="inner">
+					<p>All Hail the Cloven One! 🤍 𝕯𝖆𝖘 𝕷𝖆𝖇𝖔𝖗𝖆𝖙𝖔𝖗𝖞®</p>
+				</div>
+			</footer>
+		</div>
+
+		<!-- <script src="https://unpkg.com/@das.laboratory/very-unique-id/dist/very-unique-id.umd.js"></script> -->
+
+		<script type="module">
+			import getUniqueMonster from '../lib/index.js';
+
+			const btn = document.getElementById('get-monster');
+			const output = document.getElementById('my-monster');
+			btn.addEventListener('click', () => {
+				const uniqueMonster = getUniqueMonster();
+				output.innerHTML = `<h1>${uniqueMonster}</h1>`;
+			});
+			console.log(getUniqueMonster());
+		</script>
+	</body>
+</html>

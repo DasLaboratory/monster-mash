@@ -1,0 +1,52 @@
+{
+	"name": "very-unique-id",
+	"version": "1.0.0",
+	"description": "A generator of more memorable but unique IDs",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DasLaboratory/very-unique-id.git"
+	},
+	"author": "Nicolas Reibnitz <n.reibnitz@gmail.com> (http://daslaboritory.com/)",
+	"homepage": "https://github.com/DasLaboratory/very-unique-id#readme",
+	"bugs": {
+		"url": "https://github.com/DasLaboratory/very-unique-id/issues"
+	},
+	"main": "./dist/very-unique-id.umd.js",
+	"module": "./dist/very-unique-id.es.js",
+	"exports": {
+		".": {
+			"import": "./dist/very-unique-id.es.js",
+			"require": "./dist/very-unique-id.umd.js"
+		}
+	},
+	"scripts": {
+		"build": "vite build",
+		"bump:major": "npm version major -f -m \"[v%s] $npm_config_message\"",
+		"bump:minor": "npm version minor -f -m \"[v%s] $npm_config_message\"",
+		"bump:patch": "npm version patch -f -m \"[v%s] $npm_config_message\"",
+		"dev": "vite",
+		"postversion": "git push && git push --tags && npm publish",
+		"preversion": "git add .",
+		"preview": "vite preview",
+		"version": "git add ."
+	},
+	"keywords": [
+		"javascript",
+		"fake",
+		"faker",
+		"mocking",
+		"fake-content",
+		"mocks",
+		"fake-data",
+		"faker-generator",
+		"monsters",
+		"hackers"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"faker": "^5.5.3",
+		"sass": "^1.45.1",
+		"vite": "^2.7.2"
+	}
+}
